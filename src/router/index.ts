@@ -6,6 +6,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/',
     name: 'home',
     component: HomePage
+  },
+  {
+    path: '/discussion',
+    name: 'dicussion',
+    component: HomePage
+  },
+  {
+    path: '/friends',
+    name: 'friends',
+    component: HomePage
   }
 ]
 
